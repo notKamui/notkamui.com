@@ -11,7 +11,7 @@ const locales = fs.readdirSync('locales')
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Nightrunner',
+      title: 'notKamui',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },

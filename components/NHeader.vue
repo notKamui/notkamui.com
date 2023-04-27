@@ -1,18 +1,10 @@
 <script lang="ts" setup>
-const { isDark, toggle } = useDark()
-const { t } = useCustomI18n()
+const { toggle } = useDark()
 </script>
 
 <template>
   <header class="p-5 w-full flex-center flex-row justify-between absolute">
-    <p class="text-8 font-text">
-      <ClientOnly>
-        {{ isDark ? t('theme.dark') : t('theme.light') }}
-        <template #fallback>
-          ...
-        </template>
-      </ClientOnly>
-    </p>
+    <div />
     <div class="flex flex-row gap-2">
       <LocaleSwitch />
       <button class="icon-btn text-5" @click="toggle()">
