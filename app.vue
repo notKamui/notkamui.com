@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// switch to preferred locale on load
+useTheme()
 const router = useRouter()
 const switchLocalePath = useSwitchLocalePath()
 const locale = useLocale()

@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind.css',
     '@/assets/css/reset.css',
+    'primevue/resources/primevue.css',
   ],
 
   // plugin configurations
