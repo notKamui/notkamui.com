@@ -38,6 +38,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@vue-macros/nuxt',
     '@unocss/nuxt',
+    '@notkamui/nuxt-primevue',
     '@nuxtjs/critters',
     '@nuxtjs/color-mode',
     '@pinia/nuxt',

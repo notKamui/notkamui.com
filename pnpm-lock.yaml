@@ -7,6 +7,9 @@ devDependencies:
   '@iconify-json/tabler':
     specifier: ^1.1.74
     version: 1.1.74
+  '@notkamui/nuxt-primevue':
+    specifier: ^0.4.0
+    version: 0.4.0(vue@3.2.47)
   '@nuxtjs/color-mode':
     specifier: ^3.2.0
     version: 3.2.0
@@ -1217,6 +1220,17 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+    dev: true
+
+  /@notkamui/nuxt-primevue@0.4.0(vue@3.2.47):
+    resolution: {integrity: sha512-iKFUCnPX3YssY9hhqHvBp0sRLQtRsAbkP3GBav00z+Lr0cN6aIesKOR228VY3MYO7rj94jSPHINg+mZubrIA2w==}
+    dependencies:
+      '@nuxt/kit': 3.4.2
+      primevue: 3.28.0(vue@3.2.47)
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
     dev: true
 
   /@npmcli/config@6.1.6:
@@ -7502,6 +7516,14 @@ packages:
   /pretty-bytes@6.1.0:
     resolution: {integrity: sha512-Rk753HI8f4uivXi4ZCIYdhmG1V+WKzvRMg/X+M42a6t7D07RcmopXJMDNk6N++7Bl75URRGsb40ruvg7Hcp2wQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
+    dev: true
+
+  /primevue@3.28.0(vue@3.2.47):
+    resolution: {integrity: sha512-yLHvmtTUvO4znfQqcOYHO8H/l0sBHqfvzPAhu4rKNSRjyrj/KO1cP0S+1aa5zGsspaKxXfi2bhhzwSDD0xXwgA==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.2.47
     dev: true
 
   /proc-log@2.0.1:
