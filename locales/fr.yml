@@ -1,2 +1,10 @@
 main:
+  cta: >-
+    Pour l'instant, vous pouvez consulter ma page Github, ou mon organisation,
+    Black Kamelia
+  projects: Projets
   title: notKamui
+  wip: Ce site est en construction
+misc:
+  black_kamelia: Black Kamelia
+  github: Github

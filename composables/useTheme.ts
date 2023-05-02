@@ -7,10 +7,6 @@ export default function useTheme() {
         rel: 'stylesheet',
         href: isDark.value ? darkTheme : lightTheme,
       },
-      {
-        rel: 'stylesheet',
-        href: mainTheme,
-      },
     ],
   }))
   useHead(head)

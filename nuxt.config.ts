@@ -12,7 +12,11 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'notKamui',
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'stylesheet', href: '/css/theme.css' },
+        // { rel: 'stylesheet', href: '/css/light-theme.css' },
+      ],
     },
   },
   imports: { // add folders here to auto-import them in your application
